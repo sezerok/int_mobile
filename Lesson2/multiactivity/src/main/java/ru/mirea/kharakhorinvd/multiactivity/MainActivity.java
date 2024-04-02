@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i(TAG,"onDestroy");
     }
     public void onClickNewActivity (View view){
-        Intent intent = new Intent(this, SecondActivity.class);
+        Intent ient = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
     public void onClickSend(View view){
