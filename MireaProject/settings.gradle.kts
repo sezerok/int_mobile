@@ -1,6 +1,12 @@
 pluginManagement {
     repositories {
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -13,10 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lesson3"
+rootProject.name = "MireaProject"
 include(":app")
-include(":FavouriteBook")
-include(":systemintentsapp")
-include(":simplefragmentapp")
-include(":sharer")
-include(":past_mirpr\\")
+ 
