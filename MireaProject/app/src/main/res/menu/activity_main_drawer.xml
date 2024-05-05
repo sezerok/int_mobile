@@ -34,6 +34,12 @@
         <item
             android:id="@+id/MicrophoneFragment"
             android:title="MicrophoneFragment" />
+        <item
+            android:id="@+id/ProfileFragment"
+            android:title="sharedpreference" />
+        <item
+            android:id="@+id/CryptoFragment"
+            android:title="crypto" />
 
     </group>
 </menu>

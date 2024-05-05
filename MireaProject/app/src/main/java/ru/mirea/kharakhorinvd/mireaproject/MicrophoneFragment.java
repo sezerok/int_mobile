@@ -81,8 +81,8 @@ public class MicrophoneFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_microphone, container, false);
-        recordButton = view.findViewById(R.id.button);
-        playButton = view.findViewById(R.id.button2);
+        recordButton = view.findViewById(R.id.buttoncryptosave);
+        playButton = view.findViewById(R.id.buttoncryptoload);
 
         playButton.setEnabled(false);
         recordFilePath	= (new File(getActivity().getExternalFilesDir(Environment.DIRECTORY_MUSIC),

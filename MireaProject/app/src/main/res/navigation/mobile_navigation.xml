@@ -52,4 +52,14 @@
         android:name="ru.mirea.kharakhorinvd.mireaproject.MicrophoneFragment"
         android:label="fragment_microphone"
         tools:layout="@layout/fragment_microphone" />
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="ru.mirea.kharakhorinvd.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/CryptoFragment"
+        android:name="ru.mirea.kharakhorinvd.mireaproject.CryptoFragment"
+        android:label="fragment_crypto"
+        tools:layout="@layout/fragment_crypto" />
 </navigation>
