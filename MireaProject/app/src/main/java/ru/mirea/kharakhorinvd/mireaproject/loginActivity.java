@@ -136,32 +136,4 @@ public class loginActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
-
-//    private void signOut() {
-//        mAuth.signOut();
-//        updateUI(null);
-//    }
-
-//    private void sendEmailVerification() {
-//        binding.verifyEmailButton.setEnabled(false);
-//        final FirebaseUser user = mAuth.getCurrentUser();
-//        if (user != null) {
-//            user.sendEmailVerification()
-//                    .addOnCompleteListener(this, new OnCompleteListener<Void>() {
-//                        @Override
-//                        public void onComplete(@NonNull Task<Void> task) {
-//                            binding.verifyEmailButton.setEnabled(true);
-//                            if (task.isSuccessful()) {
-//                                Toast.makeText(loginActivity.this, "Verification email sent to " + user.getEmail(), Toast.LENGTH_SHORT).show();
-//                            } else {
-//                                Log.e(TAG, "sendEmailVerification", task.getException());
-//                                Toast.makeText(loginActivity.this, "Failed to send verification email.", Toast.LENGTH_SHORT).show();
-//                            }
-//                        }
-//                    });
-//        } else {
-//            binding.verifyEmailButton.setEnabled(true);
-//            Toast.makeText(loginActivity.this, "No user is signed in.", Toast.LENGTH_SHORT).show();
-//        }
-//    }
 }
