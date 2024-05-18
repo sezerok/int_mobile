@@ -35,7 +35,7 @@ public class MicrophoneFragment extends Fragment {
     private MediaPlayer player = null;
     boolean	isStartRecording = true;
     boolean	isStartPlaying = true;
-    private	final String TAG = MainActivity.class.getSimpleName();
+    private	final String TAG = loginActivity.class.getSimpleName();
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
