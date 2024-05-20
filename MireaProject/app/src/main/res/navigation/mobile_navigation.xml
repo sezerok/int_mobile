@@ -62,4 +62,9 @@
         android:name="ru.mirea.kharakhorinvd.mireaproject.CryptoFragment"
         android:label="fragment_crypto"
         tools:layout="@layout/fragment_crypto" />
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="ru.mirea.kharakhorinvd.mireaproject.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
 </navigation>

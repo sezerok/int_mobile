@@ -40,6 +40,9 @@
         <item
             android:id="@+id/CryptoFragment"
             android:title="crypto" />
+        <item
+            android:id="@+id/MapFragment"
+            android:title="Заведения" />
 
     </group>
 </menu>
